@@ -24,9 +24,11 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 8rem;
+    font-family: 'Roboto Mono', monospace;
 }
 .title {
     text-align: center;
+    font-size: 1.5rem;
 }
 textarea {
     resize: none;
