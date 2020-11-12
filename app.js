@@ -1,15 +1,15 @@
-let texto = new SpeechSynthesisUtterance();
+let txt = new SpeechSynthesisUtterance();
 let voices = speechSynthesis.getVoices();
-texto.voice = voices[6];
-texto.pitch = 0.8;
-texto.lang = 'en-US';
+txt.voice = voices[6];
+txt.pitch = 1;
+txt.lang = 'en-US';
 
 
 
 function pronounce() {
     let it = document.getElementById('input-text').value;
     if(it.length =! '') {
-        texto.text = it;
-        speechSynthesis.speak(texto);
+        txt.text = it;
+        speechSynthesis.speak(txt);
     }
 }
