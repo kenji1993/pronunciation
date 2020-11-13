@@ -5,8 +5,7 @@ txt.pitch = 1;
 txt.lang = 'en-US';
 
 
-
-function pronounce() {
+function pronounce() {   
     let it = document.getElementById('input-text').value;
     if(it.length =! '') {
         txt.text = it;
@@ -14,7 +13,6 @@ function pronounce() {
     }
 }
 
-function clear() {
-    let clear = document.getElementById('clear').value = '';
-
+function reset() {
+    document.getElementById('input-text').value = "";
 }
