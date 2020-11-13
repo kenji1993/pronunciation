@@ -13,3 +13,8 @@ function pronounce() {
         speechSynthesis.speak(txt);
     }
 }
+
+function clear() {
+    let clear = document.getElementById('clear').value = '';
+
+}
