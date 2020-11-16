@@ -34,6 +34,13 @@ body {
     font-size: 3rem;
     color: #fff;
 }
+.swal2-html-container {
+    font-size: 1.4rem;
+}
+.swal2-styled.swal2-confirm {
+    background: #8ea8ff ;
+    font-size: 1.6rem;
+}
 .fa-thumbs-up {
     color: #fff;
 }

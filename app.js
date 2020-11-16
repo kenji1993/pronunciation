@@ -23,7 +23,8 @@ function about() {
         title: '<strong>About</strong>',
         icon: 'info',
         html:
-          'Escribí, pegá textos o palabras en inglés y conocé su pronunciación</br> ' +
+          'Escribí, pegá textos o palabras en inglés y conocé su pronunciación.</br> ' +
+          '<br>' +
           '<strong>Cambiá los números por letras:</strong> <br>' +
           'Ex: 16 = sixteen',
         showCloseButton: true,
