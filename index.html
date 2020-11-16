@@ -10,29 +10,38 @@
 </head>
 <body>
 
-    <div class="content">
-        <div class="card">
-            <div class="title">
-                <h1>Pronunciation</h1>
-            </div>
-            
-        
-            <div class="main">        
-                <textarea id="input-text" id="" cols="50" rows="20" placeholder="Write some text here"></textarea>
-            </div>
-            <div class="buttons">
-                <button id="play" onclick="pronounce();">
-                    <i class="fas fa-play"></i>
-                </button>
-                <button id="clear" onclick="reset();">
-                    <i class="fas fa-trash-alt"></i>
-                </button>
-            </div>
-            
+    <div class="header">        
+        <div class="about">
+            <i class="fas fa-question"></i>
         </div>
-        
     </div>
-    
+
+    <div class="main">
+        <div class="content">
+            <div class="card">
+                <div class="title">
+                    <h1>Pronunciation</h1>
+                </div>
+                
+            
+                <div class="text-content">        
+                    <textarea id="input-text" id="" cols="50" rows="20" placeholder="Write some text here"></textarea>
+                </div>
+                <div class="buttons">
+                    <button id="play" onclick="pronounce();">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="clear" onclick="reset();">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+                
+            </div>            
+        </div>
+    </div>
+
+    <div class="footer"></div>
+
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/500df033a6.js " crossorigin="anonymous "></script>
 </body>
