@@ -12,18 +12,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #27282c;
+    background: #fff;
 }
 .content {
     width: 45rem;
     height: 50rem;
-    background: #8559b8;
+    background: #6b8bf3;
     color: #fff;
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8rem;
+    border-radius: 2rem;
     font-family: 'Roboto Mono', monospace;
 }
 .title {
@@ -37,6 +37,7 @@ textarea {
     padding: 1rem;
     border-radius: 1rem;
     border: none;
+    background: rgb(240, 226, 226);
 }
 .buttons {
     display: flex;
