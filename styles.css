@@ -124,6 +124,11 @@ button i {
     .header {
         width: 85%;
     }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
 }
 @media(max-width: 500px) {
     .header {
