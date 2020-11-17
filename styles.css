@@ -148,6 +148,7 @@ button i {
 
 @media(max-width: 450px) {
     .content {
+        width: 30rem;
         border-radius: 2.5rem;
     }
     .title {
