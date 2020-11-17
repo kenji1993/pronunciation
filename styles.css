@@ -127,11 +127,11 @@ button i {
     }
     .main {
         width: 100%;
-        height: 75vh;
+        height: 80vh;
     }
     .footer {
         width: 100%;
-        height: 15vh;
+        height: 10vh;
     }
 }
 @media(max-width: 500px) {
@@ -147,9 +147,6 @@ button i {
 
 
 @media(max-width: 450px) {
-    .main {
-        height: 42rem;
-    }
     .content {
         width: 30rem;
         height: 40rem;
