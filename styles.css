@@ -16,7 +16,7 @@ body {
     width: 70%;
     height: 7rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .header a i {
