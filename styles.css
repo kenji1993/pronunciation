@@ -16,8 +16,24 @@ body {
     width: 70%;
     height: 7rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
+}
+.header a i {
+    font-size: 4rem;
+    color: #9a9a9a;
+}
+.contacto ul li {
+    width: 80%;
+    display: inline;
+    margin: 1rem;
+    cursor: pointer;
+}
+.fa-linkedin-in:hover {
+    color: #0a66c2;
+}
+.fa-github-alt:hover {
+    color: #24292e;
 }
 .about {
     width: 4rem;
@@ -111,22 +127,7 @@ button i {
     bottom: 0;
     left: 0;
 }
-.footer a i {
-    font-size: 4rem;
-    color: #9a9a9a;
-}
-.contacto ul li {
-    width: 80%;
-    display: inline;
-    margin: 1rem;
-    cursor: pointer;
-}
-.fa-linkedin-in:hover {
-    color: #0a66c2;
-}
-.fa-github-alt:hover {
-    color: #24292e;
-}
+
 @media(max-width: 800px) {
     .header {
         width: 85%;
