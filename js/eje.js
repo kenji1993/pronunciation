@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded",function() {
         b = Math.floor(e.beta);
         g = Math.floor(e.gamma);
         
-        let transform = 'rotateZ(' + Math.round(e.alpha) + 'deg) rotateX(' + Math.round(e.beta) + 'deg) rotateY(' + Math.round(e.gamma) + 'deg)';
+        let transform = 'rotateZ(' + Math.round(e.alpha) + 'deg) rotateX(' + Math.round(e.beta 90) + 'deg) rotateY(' + Math.round(e.gamma) + 'deg)';
         main.style.transform = transform;
     });
 })
